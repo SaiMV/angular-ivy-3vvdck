@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeScreenComponent {
 
   constructor() { }
-  openSlider:any;
+  openSlider:any=true;
   getClass(){
     if(this.openSlider === undefined ){
       return 'set-left'

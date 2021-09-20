@@ -1,8 +1,8 @@
 .big {
-  stroke: #62fff8;
+  stroke: #292b2b;
 }
 #svg_2 {
-  fill: rgb(50 90 69);
+  fill: #363636;
 }
 #svg_1.big,
 #svg_2,
@@ -74,13 +74,13 @@
   height: 100%;
   width: 345px;
   border-radius: 0px 2px 0px 0px;
-  border-right: 2px solid #62fff8;
+  border-right: 2px solid #dad6dd;
   animation: opacityBlured 2000ms 1 ease;
-  background-image: linear-gradient(to right, #62fff8, white);
+  background-image: linear-gradient(to right, #0c0213, white);
 }
 .top-text-left-container {
   font-size: 17px;
-  color: #78c3c3;
+  color: #000000;
   position: absolute;
   z-index: 3;
   padding: 8px 10px 10px 20px;
@@ -98,9 +98,9 @@
   border-radius: 50px 0px;
   z-index: 1;
   position: absolute;
-  border-right: 0px solid #62fff8;
-  border-bottom: 2px solid #e3fbfa;
-  background-image: linear-gradient(to right, #ffffff, #8ffffa);
+  border-right: 0px solid #878588;
+  border-bottom: 2px solid #ebeaec;
+  background-image: linear-gradient(to right, #ffffff, #0c0213);
 }
 .left-container-scroll-area {
   background: white;
@@ -158,14 +158,14 @@
   transform: translate(88%, -10%);
   background: #ffffff;
   border-radius: 50%;
-  border: 2px solid #2ae4d9;
+  border: 2px solid #000000;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 27px;
   height: 27px;
   cursor: pointer;
-  box-shadow: 0px 0px 10px 0px #0004;
+  box-shadow: 0px 0px 10px 0px rgba(241, 239, 239, 0.267);
   z-index: 2;
 }
 .material-icons-round {
@@ -202,7 +202,7 @@
 .main-intro-screen:after {
   z-index: 2;
   background-color: #fff;
-  border: 2px solid #62fff8;
+  border: 2px solid #dad6dd;
   position: absolute;
   /* width: 100%; */
   height: 100%;
@@ -217,7 +217,8 @@
   left: -30px;
   height: 200px;
   border-radius: 100px 283px 383px 319px/132px 1px 24px 117px;
-  background-image: linear-gradient(to right, #ffffff, #8ffffa);
+  background-image: linear-gradient(to right, #ffffff,
+   #0c0213);
 }
 
 h2 {
@@ -381,8 +382,8 @@ a:visited {
   background: white;
   bottom: 0px;
   position: absolute;
-  border-top: 2px solid #46f6ff;
-  border-bottom: 2px solid #46f6ff;
+  border-top: 2px solid #dad6dd;
+  border-bottom: 2px solid #dad6dd;
   z-index: 1;
 }
 
@@ -390,7 +391,7 @@ a:visited {
   height: 150px;
   width: 351px;
   z-index: 0;
-  background: #46f6ff;
+  background: #dad6dd;
   bottom: 0px;
   border-radius: 0px 10px 0px 0px;
   position: absolute;
